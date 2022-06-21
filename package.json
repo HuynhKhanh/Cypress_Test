@@ -1,0 +1,16 @@
+{
+  "name": "cypress_demo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress open"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^10.0.3"
+  },
+  "cypress": "cypress"
+}
