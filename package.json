@@ -12,5 +12,9 @@
   "dependencies": {
     "cypress": "^10.0.3"
   },
-  "cypress": "cypress"
+  "cypress": "cypress",
+  "devDependencies": {
+    "cypress-file-upload": "^5.0.8",
+    "cypress-xpath": "^2.0.0"
+  }
 }
