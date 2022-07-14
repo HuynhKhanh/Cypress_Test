@@ -19,7 +19,7 @@ describe('Pop Up Test Suit', () => {
             expect(fn.getCall(2)).to.be.calledWithExactly('Third Alert Box')
         })
     });
-
+ô
     it('Confirm - First Way', () => {
         cy.on('window:confirm', confirmTxt => {
             expect(confirmTxt).to.eql('I\'m a Confirm Box')
